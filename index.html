@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaaS Static Deployment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <div class="icon-container">
+      <i class="ph ph-rocket-launch"></i>
+    </div>
+    <h1>Hello Render!</h1>
+    <p>Website ini berhasil di-deploy dari GitHub ke platform Render.</p>
+    <button id="cek">
+      <span>Cek JavaScript</span>
+      <i class="ph ph-code"></i>
+    </button>
+    <div id="hasil-container" class="hidden">
+      <i class="ph-fill ph-check-circle"></i>
+      <p id="hasil"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
